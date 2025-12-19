@@ -12,6 +12,7 @@ Container {
 }
 
 Container.content {
+    border-title-color: $secondary;
     border: round $panel;
     border-title-align: center;
     background: white 2%;
