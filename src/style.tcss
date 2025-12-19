@@ -1,0 +1,137 @@
+Screen {
+    align: center middle;
+}
+
+Static {
+    width: auto;
+}
+
+Container {
+    width: auto;
+    height: auto;
+}
+
+Container.content {
+    border: round $panel;
+    border-title-align: center;
+    background: white 2%;
+    padding: 1;
+    padding-left: 3;
+    padding-right: 3;
+}
+
+Horizontal {
+    width: auto;
+    height: auto;
+}
+
+Vertical {
+    width: auto;
+    height: auto;
+}
+
+Select {
+    width: 100%;
+}
+
+Input {
+    width: 100%;
+    min-width: 40;
+}
+
+DataTable {
+    width: 100%;
+    height: auto;
+    border-left: solid $secondary;
+    background: transparent;
+    margin-bottom: 1;
+}
+
+.margin-top-bottom {
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.margin-bottom {
+    margin-bottom: 1;
+}
+
+.margin-left {
+    margin-left: 1;
+}
+
+Button {
+    text-style: none;
+}
+
+.dashboard-button {
+    width: 28;
+}
+
+.dashboard-button-slim {
+    width: 24;
+}
+
+#greeting-subtitle {
+    color: $secondary;
+}
+
+#greeting-next {
+    margin-top: 1;
+}
+
+#saldo {
+    width: 28;
+    height: 3;
+    border: round $secondary;
+    text-align: right;
+    padding-left: 1;
+    padding-right: 1;
+}
+
+ListView {
+    height: auto;
+    max-height: 15;
+    width: 100%;
+}
+
+ListItem {
+    padding-left: 1;
+    padding-right: 1;
+}
+
+.overview-account-list-item {
+    border: round $secondary;
+}
+
+Input {
+    border: round $secondary;
+    background: transparent;
+}
+
+Select {
+    border: round $secondary;
+    padding: 0;
+    padding-left: 1;
+    padding-right: 1;
+    margin: 0;
+    width: 40;
+}
+
+Select > SelectMenu {
+    width: 100%;
+}
+
+Select > SelectCurrent {
+    width: 100%;
+    background: transparent;
+}
+
+Checkbox {
+    border: none;
+    background: transparent;
+
+    &.-on > .toggle--button {
+        background: $primary;
+    }
+}
