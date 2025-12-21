@@ -1,3 +1,7 @@
+# Utvärdering
+
+[Utvärderingen (länk)](utvärdering.docx).
+
 # Instruktioner
 
 Installera [uv](https://docs.astral.sh/uv/).
